@@ -1,7 +1,4 @@
 .idea
 .gradle
-# Project exclude paths
-/common/build/
-/common/build/classes/java/main/
-/weak/build/
-/weak/build/classes/java/main/
+**/build/
+
