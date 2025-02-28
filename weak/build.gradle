@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(':common')
+    implementation 'org.springframework.boot:spring-boot-starter-web:3.4.3'
+    implementation 'org.springframework.boot:spring-boot-starter-actuator:3.4.3'
+
+    compileOnly 'org.projectlombok:lombok:1.18.36'
+
+    annotationProcessor 'org.projectlombok:lombok:1.18.36'
+}

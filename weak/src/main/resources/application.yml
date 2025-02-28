@@ -1,0 +1,5 @@
+app:
+  database:
+    url: ${db.url}
+    password: ${db.password}
+    login: ${db.username}

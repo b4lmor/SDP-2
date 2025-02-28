@@ -1,0 +1,6 @@
+rootProject.name = 'SDP-2'
+
+include 'weak'
+include 'strong'
+include 'common'
+include 'database'
