@@ -1,5 +1,5 @@
 app:
   database:
-    url: ${db.url}
-    password: ${db.password}
-    login: ${db.username}
+    url: jdbc:postgresql://localhost:5432/sdp2
+    password: postgres
+    login: postgres

@@ -6,4 +6,5 @@ public interface UserService {
 
     void register(UserRegistrationRequest userRegistrationRequest);
 
+    String info(Long id);
 }

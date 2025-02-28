@@ -16,4 +16,4 @@ services:
     ports:
       - "9000:9000"
     environment:
-      - SONAR_EMBEDDEDDATABASE_ENABLED=true
+      - SONAR_EMBEDDEDDATABASE_ENABLED=true # Abd'qe`1``23232

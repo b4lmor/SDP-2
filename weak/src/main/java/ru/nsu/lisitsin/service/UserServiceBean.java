@@ -19,4 +19,9 @@ public class UserServiceBean implements UserService {
         log.info("login: '{}' password: '{}'", userRegistrationRequest.getName(), userRegistrationRequest.getPassword());
         userRepository.save(userRegistrationRequest.getName(), userRegistrationRequest.getPassword());
     }
+
+    @Override
+    public String info(Long id) {
+        return userRepository.findById(id).orElse("Not found");
+    }
 }

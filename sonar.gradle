@@ -1,0 +1,13 @@
+apply plugin: 'org.sonarqube'
+
+sonar {
+    properties {
+        // Insert other SonarQube properties here
+        property 'sonar.host.url', 'http://localhost:9000' // URL сервера SonarQube
+        property 'sonar.token', 'sqa_81c91e9803992d6b6ac3fd55d0b34cd20996a9fb' // Токен для аутентификации
+
+        property 'sonar.projectName', 'SDP-2'
+        property 'sonar.projectKey', 'org.sonarqube.sdp'
+        property "sonar.java.binaries", "**/target/classes"
+    }
+}
