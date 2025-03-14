@@ -1,6 +1,6 @@
-package ru.nsu.lisitsin.api.service;
+package ru.nsu.lisitsin.service;
 
-import ru.nsu.lisitsin.api.model.UserRegistrationRequest;
+import ru.nsu.lisitsin.model.UserRegistrationRequest;
 
 public interface UserService {
 

@@ -1,4 +1,4 @@
-package ru.nsu.lisitsin.api.model;
+package ru.nsu.lisitsin.model;
 
 import lombok.Builder;
 import lombok.Value;

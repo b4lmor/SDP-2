@@ -3,3 +3,9 @@ app:
     url: jdbc:postgresql://localhost:5432/sdp2
     password: postgres
     login: postgres
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: *
